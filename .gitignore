@@ -1,0 +1,10 @@
+# 封面图 PNG 只上传微信，不提交 Git
+*.png
+
+# 系统文件
+.DS_Store
+.idea/
+
+# 其他中间产物
+*.html
+published/.idea/
