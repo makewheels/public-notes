@@ -16,7 +16,7 @@
   
   <!-- 日期 -->
   <text x="450" y="250" font-family="PingFang SC, Arial, sans-serif" font-size="36" 
-        fill="#00d4ff" text-anchor="middle">2026.03.30</text>
+        fill="#00d4ff" text-anchor="middle">2026.03.31</text>
   
   <!-- 底部装饰线 -->
   <rect x="300" y="300" width="300" height="3" fill="#00d4ff" rx="1.5"/>
