@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+  <rect width="800" height="400" fill="#1a1a2e"/>
+
+  <!-- 标题 -->
+  <text x="400" y="35" text-anchor="middle" font-family="PingFang SC" font-size="22" font-weight="bold" fill="#fff">
+    做APP vs 做美团：差距在哪里？
+  </text>
+
+  <!-- 表头 -->
+  <rect x="50" y="60" width="200" height="40" fill="#333" rx="5"/>
+  <rect x="260" y="60" width="240" height="40" fill="#ff6b6b" rx="5"/>
+  <rect x="510" y="60" width="240" height="40" fill="#4ecdc4" rx="5"/>
+
+  <text x="150" y="85" text-anchor="middle" font-family="PingFang SC" font-size="16" font-weight="bold" fill="#fff">维度</text>
+  <text x="380" y="85" text-anchor="middle" font-family="PingFang SC" font-size="16" font-weight="bold" fill="#fff">一天做APP</text>
+  <text x="630" y="85" text-anchor="middle" font-family="PingFang SC" font-size="16" font-weight="bold" fill="#fff">真正的美团</text>
+
+  <!-- 行1：核心资产 -->
+  <rect x="50" y="105" width="700" height="50" fill="#252540" rx="5"/>
+  <text x="150" y="135" text-anchor="middle" font-family="PingFang SC" font-size="14" fill="#aaa">核心资产</text>
+  <text x="380" y="130" text-anchor="middle" font-family="PingFang SC" font-size="13" fill="#ff6b6b">代码</text>
+  <text x="380" y="150" text-anchor="middle" font-family="PingFang SC" font-size="11" fill="#888">价值 ≈ 0</text>
+  <text x="630" y="130" text-anchor="middle" font-family="PingFang SC" font-size="13" fill="#4ecdc4">网络+履约+数据</text>
+  <text x="630" y="150" text-anchor="middle" font-family="PingFang SC" font-size="11" fill="#888">价值万亿</text>
+
+  <!-- 行2：竞争壁垒 -->
+  <rect x="50" y="160" width="700" height="50" fill="#1e1e36" rx="5"/>
+  <text x="150" y="190" text-anchor="middle" font-family="PingFang SC" font-size="14" fill="#aaa">竞争壁垒</text>
+  <text x="380" y="185" text-anchor="middle" font-family="PingFang SC" font-size="13" fill="#ff6b6b">无</text>
+  <text x="380" y="205" text-anchor="middle" font-family="PingFang SC" font-size="11" fill="#888">技术门槛已消失</text>
+  <text x="630" y="185" text-anchor="middle" font-family="PingFang SC" font-size="13" fill="#4ecdc4">极高</text>
+  <text x="630" y="205" text-anchor="middle" font-family="PingFang SC" font-size="11" fill="#888">10年积累</text>
+
+  <!-- 行3：获客成本 -->
+  <rect x="50" y="215" width="700" height="50" fill="#252540" rx="5"/>
+  <text x="150" y="245" text-anchor="middle" font-family="PingFang SC" font-size="14" fill="#aaa">获客成本</text>
+  <text x="380" y="240" text-anchor="middle" font-family="PingFang SC" font-size="13" fill="#ff6b6b">天文数字</text>
+  <text x="380" y="260" text-anchor="middle" font-family="PingFang SC" font-size="11" fill="#888">从0开始</text>
+  <text x="630" y="240" text-anchor="middle" font-family="PingFang SC" font-size="13" fill="#4ecdc4">低</text>
+  <text x="630" y="260" text-anchor="middle" font-family="PingFang SC" font-size="11" fill="#888">用户自己来</text>
+
+  <!-- 行4：生存周期 -->
+  <rect x="50" y="270" width="700" height="50" fill="#1e1e36" rx="5"/>
+  <text x="150" y="300" text-anchor="middle" font-family="PingFang SC" font-size="14" fill="#aaa">生存周期</text>
+  <text x="380" y="295" text-anchor="middle" font-family="PingFang SC" font-size="13" fill="#ff6b6b">上线即死亡</text>
+  <text x="380" y="315" text-anchor="middle" font-family="PingFang SC" font-size="11" fill="#888">没用户没商家</text>
+  <text x="630" y="295" text-anchor="middle" font-family="PingFang SC" font-size="13" fill="#4ecdc4">10年+</text>
+  <text x="630" y="315" text-anchor="middle" font-family="PingFang SC" font-size="11" fill="#888">持续进化</text>
+
+  <!-- 底部结论 -->
+  <text x="400" y="370" text-anchor="middle" font-family="PingFang SC" font-size="16" font-weight="bold" fill="#ffd700">
+    代码免费，但现实壁垒价值万亿
+  </text>
+</svg>
