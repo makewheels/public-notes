@@ -16,12 +16,12 @@
   
   <!-- 日期 -->
   <text x="450" y="250" font-family="PingFang SC, Arial, sans-serif" font-size="36" 
-        fill="#00d4ff" text-anchor="middle">2026.03.31</text>
+        fill="#00d4ff" text-anchor="middle">2026.03.29</text>
   
   <!-- 底部装饰线 -->
   <rect x="300" y="300" width="300" height="3" fill="#00d4ff" rx="1.5"/>
   
   <!-- 公众号名 -->
   <text x="450" y="340" font-family="PingFang SC, Arial, sans-serif" font-size="18" 
-        fill="#8892b0" text-anchor="middle">AI 随想录</text>
+        fill="#8892b0" text-anchor="middle">AIGC Insight</text>
 </svg>

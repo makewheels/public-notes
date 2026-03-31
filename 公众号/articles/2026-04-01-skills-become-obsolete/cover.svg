@@ -27,5 +27,5 @@
   
   <!-- 公众号名 -->
   <text x="450" y="350" font-family="PingFang SC, Arial, sans-serif" font-size="16" 
-        fill="#8892b0" text-anchor="middle">AI 随想录</text>
+        fill="#8892b0" text-anchor="middle">AIGC Insight</text>
 </svg>
