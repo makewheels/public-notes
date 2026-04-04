@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 400">
+  <rect width="800" height="400" fill="#0a0a1a"/>
+  <text x="400" y="40" fill="#e0e0e0" text-anchor="middle" font-size="18" font-weight="bold" font-family="sans-serif">AI 效率提升：从线性到指数</text>
+  <!-- 坐标轴 -->
+  <line x1="100" y1="320" x2="720" y2="320" stroke="#333" stroke-width="2"/>
+  <text x="420" y="370" fill="#555" text-anchor="middle" font-size="13" font-family="sans-serif">时间 →</text>
+  <text x="60" y="180" fill="#555" text-anchor="middle" font-size="13" font-family="sans-serif" transform="rotate(-90 60 180)">效率提升</text>
+  <!-- 曲线 -->
+  <path d="M100 300 Q180 295, 260 290 Q340 285, 420 270 Q480 250, 520 230 Q560 210, 580 180 Q600 140, 620 100 Q640 60, 660 40" fill="none" stroke="#00d4aa" stroke-width="3"/>
+  <!-- 临界点标记 -->
+  <line x1="540" y1="45" x2="540" y2="320" stroke="#ff6b6b" stroke-width="2" stroke-dasharray="6,4"/>
+  <text x="540" y="35" fill="#ff6b6b" text-anchor="middle" font-size="13" font-weight="bold" font-family="sans-serif">⬇ 临界点</text>
+  <!-- 标注：辅助阶段 -->
+  <text x="300" y="280" fill="#4a90d9" text-anchor="middle" font-size="12" font-family="sans-serif">辅助阶段：提效 30%-50%</text>
+  <!-- 标注：替代阶段 -->
+  <text x="640" y="80" fill="#00d4aa" text-anchor="middle" font-size="13" font-weight="bold" font-family="sans-serif">替代阶段</text>
+  <text x="640" y="100" fill="#00d4aa" text-anchor="middle" font-size="12" font-family="sans-serif">1000 倍</text>
+  <!-- 时间标注 -->
+  <text x="150" y="310" fill="#666" text-anchor="middle" font-size="11" font-family="sans-serif">2022</text>
+  <text x="230" y="310" fill="#666" text-anchor="middle" font-size="11" font-family="sans-serif">2023</text>
+  <text x="310" y="310" fill="#666" text-anchor="middle" font-size="11" font-family="sans-serif">2024</text>
+  <text x="390" y="310" fill="#666" text-anchor="middle" font-size="11" font-family="sans-serif">2025</text>
+  <text x="570" y="335" fill="#888" text-anchor="middle" font-size="13" font-weight="bold" font-family="sans-serif">2026</text>
+  <!-- 数据点标注 -->
+  <circle cx="150" cy="298" r="4" fill="#4a90d9"/>
+  <circle cx="230" cy="292" r="4" fill="#4a90d9"/>
+  <circle cx="310" cy="283" r="4" fill="#4a90d9"/>
+  <circle cx="390" cy="265" r="4" fill="#4a90d9"/>
+  <circle cx="620" cy="60" r="5" fill="#ff6b6b"/>
+</svg>
