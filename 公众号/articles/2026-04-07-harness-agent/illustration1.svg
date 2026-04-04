@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 400">
+  <rect width="800" height="400" fill="#0a0a1a"/>
+  <text x="400" y="36" fill="#e0e0e0" text-anchor="middle" font-size="16" font-weight="bold" font-family="sans-serif">两种 Agent 构建哲学</text>
+  <!-- 左侧：工作流模式 -->
+  <rect x="40" y="70" width="340" height="300" rx="12" fill="#1a1020" stroke="#666" stroke-width="1"/>
+  <text x="210" y="105" fill="#aaa" text-anchor="middle" font-size="14" font-weight="bold" font-family="sans-serif">工作流模式（LangGraph）</text>
+  <!-- 流程图 -->
+  <rect x="80" y="130" width="80" height="30" rx="4" fill="#2a2a4a" stroke="#4a90d9" stroke-width="1"/>
+  <text x="120" y="149" fill="#4a90d9" text-anchor="middle" font-size="11" font-family="sans-serif">开始</text>
+  <line x1="160" y1="145" x2="240" y2="145" stroke="#666" stroke-width="2"/>
+  <rect x="240" y="130" width="80" height="30" rx="4" fill="#2a2a4a" stroke="#666" stroke-width="1"/>
+  <text x="280" y="149" fill="#666" text-anchor="middle" font-size="10" font-family="sans-serif">步骤A</text>
+  <line x1="280" y1="160" x2="280" y2="200" stroke="#666" stroke-width="2"/>
+  <rect x="240" y="200" width="80" height="30" rx="4" fill="#2a2a4a" stroke="#666" stroke-width="1"/>
+  <text x="280" y="219" fill="#666" text-anchor="middle" font-size="10" font-family="sans-serif">步骤B</text>
+  <line x1="320" y1="215" x2="340" y2="215" stroke="#666" stroke-width="2"/>
+  <rect x="340" y="200" width="80" height="30" rx="4" fill="#2a2a4a" stroke="#666" stroke-width="1"/>
+  <text x="380" y="219" fill="#666" text-anchor="middle" font-size="10" font-family="sans-serif">分支C</text>
+  <text x="210" y="340" fill="#555" text-anchor="middle" font-size="11" font-family="sans-serif">人定义每一步，AI 执行</text>
+  <text x="210" y="360" fill="#555" text-anchor="middle" font-size="11" font-family="sans-serif">路径固定，难以适应</text>
+  <!-- 右侧：Harness 模式 -->
+  <rect x="420" y="70" width="340" height="300" rx="12" fill="#101a20" stroke="#00d4aa" stroke-width="1"/>
+  <text x="590" y="105" fill="#00d4aa" text-anchor="middle" font-size="14" font-weight="bold" font-family="sans-serif">Harness 模式（OpenHarness）</text>
+  <!-- 循环图 -->
+  <circle cx="590" cy="190" r="50" fill="none" stroke="#00d4aa" stroke-width="2"/>
+  <text x="590" y="180" fill="#00d4aa" text-anchor="middle" font-size="14" font-weight="bold" font-family="sans-serif">目标</text>
+  <text x="590" y="200" fill="#00d4aa" text-anchor="middle" font-size="11" font-family="sans-serif">AI 自行迭代</text>
+  <!-- 周围工具 -->
+  <rect x="470" y="125" width="50" height="20" rx="3" fill="#1a3030" stroke="#00d4aa" stroke-width="1" opacity="0.6"/>
+  <text x="495" y="138" fill="#00d4aa" text-anchor="middle" font-size="9" font-family="sans-serif">工具</text>
+  <rect x="670" y="135" width="50" height="20" rx="3" fill="#1a3030" stroke="#00d4aa" stroke-width="1" opacity="0.6"/>
+  <text x="695" y="148" fill="#00d4aa" text-anchor="middle" font-size="9" font-family="sans-serif">技能</text>
+  <rect x="640" y="240" width="50" height="20" rx="3" fill="#1a3030" stroke="#00d4aa" stroke-width="1" opacity="0.6"/>
+  <text x="665" y="253" fill="#00d4aa" text-anchor="middle" font-size="9" font-family="sans-serif">记忆</text>
+  <rect x="480" y="250" width="50" height="20" rx="3" fill="#1a3030" stroke="#00d4aa" stroke-width="1" opacity="0.6"/>
+  <text x="505" y="263" fill="#00d4aa" text-anchor="middle" font-size="9" font-family="sans-serif">权限</text>
+  <text x="590" y="340" fill="#555" text-anchor="middle" font-size="11" font-family="sans-serif">人定义目标，AI 自行迭代</text>
+  <text x="590" y="360" fill="#555" text-anchor="middle" font-size="11" font-family="sans-serif">路径灵活，自适应环境</text>
+</svg>

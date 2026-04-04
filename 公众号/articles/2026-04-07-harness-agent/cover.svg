@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="383" viewBox="0 0 900 383">
+  <defs>
+    <linearGradient id="cover-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a0a1a"/>
+      <stop offset="100%" stop-color="#101030"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="383" fill="url(#cover-bg)"/>
+  <!-- 装饰 -->
+  <circle cx="200" cy="180" r="80" fill="none" stroke="#ff6b6b" stroke-width="2" opacity="0.1"/>
+  <circle cx="700" cy="180" r="80" fill="none" stroke="#00d4aa" stroke-width="2" opacity="0.1"/>
+  <!-- 主标题 -->
+  <text x="450" y="120" fill="#e0e0e0" text-anchor="middle" font-size="36" font-weight="bold" font-family="PingFang SC, sans-serif">不要学 LangGraph</text>
+  <text x="450" y="180" fill="#00d4aa" text-anchor="middle" font-size="28" font-weight="bold" font-family="PingFang SC, sans-serif">让 AI 自己完善自己</text>
+  <!-- 对比 -->
+  <text x="300" y="270" fill="#666" text-anchor="middle" font-size="20" font-family="sans-serif">人画流程图，AI 按步骤走</text>
+  <text x="600" y="270" fill="#00d4aa" text-anchor="middle" font-size="20" font-family="sans-serif">人定义目标，AI 自己迭代</text>
+  <!-- VS -->
+  <text x="450" y="275" fill="#ff6b6b" text-anchor="middle" font-size="36" font-weight="bold" font-family="sans-serif">vs</text>
+  <!-- 底部 -->
+  <text x="450" y="350" fill="#444" font-size="14" text-anchor="middle" font-family="sans-serif">2026.4.7 · AIGC Insight</text>
+</svg>
