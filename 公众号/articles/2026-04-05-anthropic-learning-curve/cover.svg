@@ -12,7 +12,7 @@
   <text x="450" y="150" fill="#00d4aa" font-size="52" font-weight="bold" text-anchor="middle" font-family="sans-serif">你用 AI 和别人用 AI</text>
   <text x="450" y="220" fill="#ffffff" font-size="42" font-weight="bold" text-anchor="middle" font-family="sans-serif">差的不是工具，是手感</text>
   <!-- 日期 -->
-  <text x="450" y="310" fill="#666" font-size="18" text-anchor="middle" font-family="sans-serif">2026.4.5 · AI来了</text>
+  <text x="450" y="310" fill="#666" font-size="18" text-anchor="middle" font-family="sans-serif">2026.4.5 · AIGC Insight</text>
   <!-- 曲线上的小圆点 -->
   <circle cx="320" cy="230" r="5" fill="#00d4aa" opacity="0.6"/>
   <circle cx="580" cy="120" r="5" fill="#00d4aa" opacity="0.6"/>
