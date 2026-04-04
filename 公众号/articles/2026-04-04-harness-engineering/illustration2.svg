@@ -1,0 +1,64 @@
+<svg width="800" height="450" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#16213e"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg)"/>
+  
+  <!-- 标题 -->
+  <text x="400" y="40" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="24" font-weight="bold" fill="#ffffff" text-anchor="middle">不同场景下，谁占大头？</text>
+  
+  <!-- 场景1：个人编程 -->
+  <g transform="translate(130, 80)">
+    <text x="0" y="0" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="20" fill="#ffffff" text-anchor="middle">个人编程</text>
+    <!-- 饼图 -->
+    <circle cx="0" cy="120" r="80" fill="#ff6b6b" stroke="none"/>
+    <!-- 90% 部分 -->
+    <path d="M0,120 L0,40 A80,80 0 0,1 76.8,97.6 Z" fill="#e94560"/>
+    <!-- 10% 部分 -->
+    <path d="M0,120 L76.8,97.6 A80,80 0 0,1 0,40 L0,120 Z" fill="#4ecdc4"/>
+    <!-- 标签 -->
+    <text x="-30" y="100" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#ffffff">模型 90%</text>
+    <text x="50" y="60" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#ffffff">Harness 10%</text>
+  </g>
+  
+  <!-- 场景2：企业工程 -->
+  <g transform="translate(400, 80)">
+    <text x="0" y="0" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="20" fill="#ffffff" text-anchor="middle">企业工程</text>
+    <!-- 饼图 -->
+    <circle cx="0" cy="120" r="80" fill="#ff6b6b" stroke="none"/>
+    <!-- 50% 部分 -->
+    <path d="M0,120 L0,40 A80,80 0 0,1 0,200 Z" fill="#e94560"/>
+    <!-- 50% 部分 -->
+    <path d="M0,120 L0,200 A80,80 0 0,1 0,40 Z" fill="#4ecdc4"/>
+    <!-- 标签 -->
+    <text x="-40" y="80" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#ffffff">模型 50%</text>
+    <text x="-40" y="170" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#ffffff">Harness 50%</text>
+  </g>
+  
+  <!-- 场景3：全链路业务 -->
+  <g transform="translate(670, 80)">
+    <text x="0" y="0" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="20" fill="#ffffff" text-anchor="middle">全链路业务</text>
+    <!-- 饼图 -->
+    <circle cx="0" cy="120" r="80" fill="#ff6b6b" stroke="none"/>
+    <!-- 30% 部分 -->
+    <path d="M0,120 L0,40 A80,80 0 0,0 -68,147.2 Z" fill="#e94560"/>
+    <!-- 70% 部分 -->
+    <path d="M0,120 L-68,147.2 A80,80 0 1,0 0,40 Z" fill="#4ecdc4"/>
+    <!-- 标签 -->
+    <text x="30" y="60" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#ffffff">模型 30%</text>
+    <text x="-20" y="160" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#ffffff">Harness 70%</text>
+  </g>
+  
+  <!-- 颜色说明 -->
+  <rect x="150" y="350" width="20" height="20" fill="#e94560" rx="3"/>
+  <text x="180" y="368" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#ffffff">模型</text>
+  
+  <rect x="350" y="350" width="20" height="20" fill="#4ecdc4" rx="3"/>
+  <text x="380" y="368" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#ffffff">Harness</text>
+  
+  <!-- 底部结论 -->
+  <text x="400" y="420" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="18" fill="#a0a0a0" text-anchor="middle">场景越复杂，Harness越重要</text>
+</svg>

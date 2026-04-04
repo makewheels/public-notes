@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 400">
+  <rect width="800" height="400" fill="#121225"/>
+  <text x="400" y="50" fill="#e0e0e0" text-anchor="middle" font-size="22" font-weight="bold" font-family="PingFang SC, sans-serif">AI 学习曲线：老用户成功率 +10%</text>
+  <!-- axes -->
+  <line x1="100" y1="320" x2="720" y2="320" stroke="#4a90d9" stroke-width="2"/>
+  <line x1="100" y1="90" x2="100" y2="320" stroke="#4a90d9" stroke-width="2"/>
+  <text x="60" y="205" fill="#666" text-anchor="middle" font-size="13" font-family="sans-serif" transform="rotate(-90,60,205)">成功率</text>
+  <text x="410" y="355" fill="#666" text-anchor="middle" font-size="13" font-family="sans-serif">使用时长</text>
+  <!-- learning curve -->
+  <path d="M100 300 Q200 295, 300 260 Q400 210, 500 165 Q600 130, 720 105" fill="none" stroke="#00d4aa" stroke-width="3.5"/>
+  <!-- points -->
+  <circle cx="300" cy="260" r="7" fill="#00d4aa"/>
+  <text x="300" y="285" fill="#00d4aa" text-anchor="middle" font-size="14" font-family="sans-serif">3个月</text>
+  <circle cx="500" cy="165" r="7" fill="#4a90d9"/>
+  <text x="500" y="190" fill="#4a90d9" text-anchor="middle" font-size="14" font-family="sans-serif">6个月</text>
+  <circle cx="720" cy="105" r="7" fill="#ffd93d"/>
+  <text x="720" y="90" fill="#ffd93d" text-anchor="middle" font-size="14" font-family="sans-serif">12个月</text>
+  <!-- +10% badge -->
+  <rect x="560" y="70" width="100" height="32" rx="8" fill="#ff6b6b" opacity="0.9"/>
+  <text x="610" y="91" fill="#fff" text-anchor="middle" font-size="16" font-weight="bold" font-family="sans-serif">+10%</text>
+  <!-- source -->
+  <text x="400" y="385" fill="#555" text-anchor="middle" font-size="11" font-family="sans-serif">数据来源：Anthropic Economic Index, 2026.03</text>
+</svg>

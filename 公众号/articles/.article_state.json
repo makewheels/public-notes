@@ -1,0 +1,21 @@
+{
+  "_comment": "文章状态追踪，按 media_id 管理草稿，避免标题匹配不可靠",
+  "published": [
+    {
+      "local_dir": "articles/2026-03-29-launch-announcement",
+      "title": "开刊词",
+      "publish_date": "2026-03-29",
+      "article_url": "https://mp.weixin.qq.com/s?__biz=MzY4NTI0MDM1MQ==&mid=2247483660",
+      "publish_id": null
+    }
+  ],
+  "drafts": [
+    {
+      "local_dir": "articles/2026-04-05-anthropic-learning-curve",
+      "title": "你用AI和别人用AI，差的不是工具，是手感",
+      "last_uploaded": "2026-04-04T16:02:43.142068",
+      "draft_media_id": "Pm82otxqQoEUDEtH7y5uET04YyJ4_EBkAQTqW5Jh5teAVcHiV2CCepECAIhTh-ta",
+      "status": "draft"
+    }
+  ]
+}

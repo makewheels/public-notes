@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="383" viewBox="0 0 900 383">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f0f23"/>
+      <stop offset="100%" stop-color="#1a1a3e"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="383" fill="url(#bg)"/>
+  <!-- 上升曲线装饰 -->
+  <path d="M80 300 Q200 280, 320 230 Q450 170, 580 120 Q700 80, 820 60" fill="none" stroke="#00d4aa" stroke-width="3" opacity="0.3"/>
+  <!-- 大标题 -->
+  <text x="450" y="150" fill="#00d4aa" font-size="52" font-weight="bold" text-anchor="middle" font-family="sans-serif">你用 AI 和别人用 AI</text>
+  <text x="450" y="220" fill="#ffffff" font-size="42" font-weight="bold" text-anchor="middle" font-family="sans-serif">差的不是工具，是手感</text>
+  <!-- 日期 -->
+  <text x="450" y="310" fill="#666" font-size="18" text-anchor="middle" font-family="sans-serif">2026.4.5 · AI来了</text>
+  <!-- 曲线上的小圆点 -->
+  <circle cx="320" cy="230" r="5" fill="#00d4aa" opacity="0.6"/>
+  <circle cx="580" cy="120" r="5" fill="#00d4aa" opacity="0.6"/>
+  <circle cx="820" cy="60" r="5" fill="#00d4aa" opacity="0.8"/>
+</svg>
