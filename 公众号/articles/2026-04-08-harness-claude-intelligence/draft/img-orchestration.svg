@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 400">
+  <defs>
+    <linearGradient id="bg1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f0f1a"/>
+      <stop offset="100%" stop-color="#1a1a2e"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="400" fill="url(#bg1)"/>
+  <!-- 标题 -->
+  <text x="400" y="40" fill="#888" text-anchor="middle" font-size="16" font-family="PingFang SC, sans-serif">传统框架 vs Anthropic 的方式</text>
+  <!-- 左侧：传统 -->
+  <rect x="40" y="70" width="340" height="280" rx="8" fill="none" stroke="#444" stroke-width="1"/>
+  <text x="210" y="100" fill="#ff6b6b" text-anchor="middle" font-size="18" font-weight="bold" font-family="PingFang SC, sans-serif">传统：框架编排</text>
+  <!-- 流程图 -->
+  <rect x="130" y="130" width="160" height="35" rx="4" fill="#2a2040"/>
+  <text x="210" y="152" fill="#ccc" text-anchor="middle" font-size="14" font-family="PingFang SC, sans-serif">Claude 调用工具</text>
+  <line x1="210" y1="165" x2="210" y2="185" stroke="#666" stroke-width="1" marker-end="url(#arrow)"/>
+  <rect x="130" y="185" width="160" height="35" rx="4" fill="#2a2040"/>
+  <text x="210" y="207" fill="#ff6b6b" text-anchor="middle" font-size="14" font-family="PingFang SC, sans-serif">结果回到上下文</text>
+  <line x1="210" y1="220" x2="210" y2="240" stroke="#666" stroke-width="1"/>
+  <rect x="130" y="240" width="160" height="35" rx="4" fill="#2a2040"/>
+  <text x="210" y="262" fill="#ccc" text-anchor="middle" font-size="14" font-family="PingFang SC, sans-serif">Claude 看结果</text>
+  <line x1="210" y1="275" x2="210" y2="295" stroke="#666" stroke-width="1"/>
+  <rect x="130" y="295" width="160" height="35" rx="4" fill="#2a2040"/>
+  <text x="210" y="317" fill="#ccc" text-anchor="middle" font-size="14" font-family="PingFang SC, sans-serif">决定下一步</text>
+  <!-- 右侧：Anthropic -->
+  <rect x="420" y="70" width="340" height="280" rx="8" fill="none" stroke="#00d4aa" stroke-width="1" opacity="0.5"/>
+  <text x="590" y="100" fill="#00d4aa" text-anchor="middle" font-size="18" font-weight="bold" font-family="PingFang SC, sans-serif">新方式：模型编排</text>
+  <!-- 简化流程 -->
+  <rect x="500" y="140" width="180" height="35" rx="4" fill="#0a2a20"/>
+  <text x="590" y="162" fill="#ccc" text-anchor="middle" font-size="14" font-family="PingFang SC, sans-serif">Claude 写编排代码</text>
+  <line x1="590" y1="175" x2="590" y2="205" stroke="#00d4aa" stroke-width="1" opacity="0.6"/>
+  <rect x="470" y="205" width="100" height="30" rx="4" fill="#0a2a20"/>
+  <text x="520" y="225" fill="#888" text-anchor="middle" font-size="12" font-family="sans-serif">工具 A</text>
+  <rect x="590" y="205" width="40" height="30" rx="4" fill="#0a2a20"/>
+  <text x="610" y="225" fill="#888" text-anchor="middle" font-size="12" font-family="sans-serif">→</text>
+  <rect x="650" y="205" width="100" height="30" rx="4" fill="#0a2a20"/>
+  <text x="700" y="225" fill="#888" text-anchor="middle" font-size="12" font-family="sans-serif">工具 B</text>
+  <line x1="590" y1="235" x2="590" y2="265" stroke="#00d4aa" stroke-width="1" opacity="0.6"/>
+  <rect x="500" y="265" width="180" height="35" rx="4" fill="#0a2a20"/>
+  <text x="590" y="287" fill="#00d4aa" text-anchor="middle" font-size="14" font-family="PingFang SC, sans-serif">只有最终结果回来</text>
+  <!-- 底部对比 -->
+  <text x="210" y="375" fill="#ff6b6b" text-anchor="middle" font-size="14" font-family="PingFang SC, sans-serif">每步都过上下文 = 贵且慢</text>
+  <text x="590" y="375" fill="#00d4aa" text-anchor="middle" font-size="14" font-family="PingFang SC, sans-serif">代码编排 = 快且省</text>
+</svg>

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 400">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f0f1a"/>
+      <stop offset="100%" stop-color="#1a1a2e"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="400" fill="url(#bg2)"/>
+  <!-- 标题 -->
+  <text x="400" y="40" fill="#888" text-anchor="middle" font-size="16" font-family="PingFang SC, sans-serif">记忆能力的代际跃迁：玩宝可梦</text>
+  <!-- Sonnet 3.5 -->
+  <rect x="40" y="65" width="340" height="270" rx="8" fill="#1a1520" stroke="#444" stroke-width="1"/>
+  <text x="210" y="95" fill="#ff6b6b" text-anchor="middle" font-size="18" font-weight="bold" font-family="PingFang SC, sans-serif">Sonnet 3.5</text>
+  <text x="210" y="120" fill="#666" text-anchor="middle" font-size="13" font-family="PingFang SC, sans-serif">14,000 步 · 31 个文件 · 卡在第二个城镇</text>
+  <!-- 模拟文件列表 -->
+  <rect x="60" y="140" width="300" height="180" rx="4" fill="#0a0a15"/>
+  <text x="75" y="162" fill="#666" font-size="12" font-family="monospace">caterpie_weedle_info:</text>
+  <text x="75" y="180" fill="#555" font-size="11" font-family="monospace">- Caterpie 是毛虫宝可梦</text>
+  <text x="75" y="196" fill="#555" font-size="11" font-family="monospace">- Weedle 也是毛虫宝可梦</text>
+  <text x="75" y="212" fill="#555" font-size="11" font-family="monospace">- Caterpie 没有毒</text>
+  <text x="75" y="228" fill="#555" font-size="11" font-family="monospace">- Weedle 有毒</text>
+  <text x="75" y="250" fill="#ff6b6b" font-size="11" font-family="monospace" opacity="0.8">// 还有一个几乎重复的文件...</text>
+  <text x="75" y="270" fill="#555" font-size="11" font-family="PingFang SC, sans-serif">→ 流水账式记录</text>
+  <text x="75" y="290" fill="#555" font-size="11" font-family="PingFang SC, sans-serif">→ 冗余信息，无法支撑决策</text>
+  <!-- Opus 4.6 -->
+  <rect x="420" y="65" width="340" height="270" rx="8" fill="#0a1a15" stroke="#00d4aa" stroke-width="1" opacity="0.5"/>
+  <text x="590" y="95" fill="#00d4aa" text-anchor="middle" font-size="18" font-weight="bold" font-family="PingFang SC, sans-serif">Opus 4.6</text>
+  <text x="590" y="120" fill="#00d4aa" text-anchor="middle" font-size="13" font-family="PingFang SC, sans-serif" opacity="0.7">14,000 步 · 10 个文件 · 三个徽章</text>
+  <!-- 模拟文件列表 -->
+  <rect x="440" y="140" width="300" height="180" rx="4" fill="#0a0a15"/>
+  <text x="455" y="162" fill="#00d4aa" font-size="12" font-family="monospace">/gameplay/learnings.md:</text>
+  <text x="455" y="182" fill="#aaa" font-size="11" font-family="monospace">- Sleep+Wrap 连招：</text>
+  <text x="455" y="198" fill="#aaa" font-size="11" font-family="monospace">  用 BITE 速杀，别让它出手</text>
+  <text x="455" y="218" fill="#aaa" font-size="11" font-family="monospace">- Gen1 背包上限 20</text>
+  <text x="455" y="234" fill="#aaa" font-size="11" font-family="monospace">  进迷宫前扔掉没用的 TM</text>
+  <text x="455" y="258" fill="#aaa" font-size="11" font-family="monospace">- B1F y=16 墙体已确认</text>
+  <text x="455" y="274" fill="#00d4aa" font-size="11" font-family="monospace" opacity="0.8">  x=9-28 全部不可通行</text>
+  <text x="455" y="296" fill="#aaa" font-size="11" font-family="PingFang SC, sans-serif">→ 战术笔记，从失败中提炼</text>
+  <!-- 底部总结 -->
+  <text x="210" y="365" fill="#666" text-anchor="middle" font-size="14" font-family="PingFang SC, sans-serif">记信息 ≠ 记忆</text>
+  <text x="590" y="365" fill="#00d4aa" text-anchor="middle" font-size="14" font-family="PingFang SC, sans-serif">记教训 = 真正的记忆</text>
+</svg>
