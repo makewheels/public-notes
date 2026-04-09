@@ -89,8 +89,64 @@ def upload_image(access_token, image_path):
     return data["media_id"]
 
 
-def markdown_to_html(md_path):
+def upload_illustrations(access_token, md_path, article_dir):
+    """找到 markdown 中的本地 SVG 引用，转 PNG → 上传 → 返回替换映射"""
+    import re
     content = md_path.read_text()
+    url_map = {}
+    temp_pngs = []
+    for match in re.finditer(r'!\[.*?\]\((\.\./.+?\.svg)\)', content):
+        svg_rel = match.group(1)
+        svg_path = (md_path.parent / svg_rel).resolve()
+        if not svg_path.exists():
+            print(f"   ⚠️  SVG 不存在，跳过: {svg_path}")
+            continue
+        png_path = svg_path.with_suffix('.png')
+        print(f"   🖼️  {svg_path.name} → PNG → 上传...")
+        svg_to_png(svg_path, png_path)
+        temp_pngs.append(png_path)
+        result = upload_image_file(access_token, png_path)
+        url_map[svg_rel] = result
+    # 清理临时 PNG
+    for p in temp_pngs:
+        p.unlink(missing_ok=True)
+    return url_map
+
+
+def upload_image_file(access_token, image_path):
+    """上传图片并返回 URL"""
+    url = f"https://api.weixin.qq.com/cgi-bin/material/add_material?access_token={access_token}&type=image"
+    boundary = "----WebKitFormBoundary7MA4YWxkTrZu0gW"
+    with open(image_path, "rb") as f:
+        image_data = f.read()
+    body = (
+        f"--{boundary}\r\n"
+        f"Content-Disposition: form-data; name=\"media\"; filename=\"{image_path.name}\"\r\n"
+        f"Content-Type: image/png\r\n\r\n"
+    ).encode() + image_data + f"\r\n--{boundary}--\r\n".encode()
+    req = urllib.request.Request(url, data=body, headers={"Content-Type": f"multipart/form-data; boundary={boundary}"})
+    with urllib.request.urlopen(req) as resp:
+        data = json.loads(resp.read().decode())
+    if "url" not in data:
+        print(f"   ❌ 插图上传失败: {data}")
+        return None
+    return data["url"]
+
+
+def markdown_to_html(md_path, illustration_urls=None):
+    content = md_path.read_text()
+    # 替换本地 SVG 引用为微信图片 URL
+    if illustration_urls:
+        import re
+        for svg_rel, wx_url in illustration_urls.items():
+            if wx_url:
+                content = content.replace(
+                    f"![](../{svg_rel.lstrip('../')})",
+                    f"![]({wx_url})"
+                ).replace(
+                    f"![]({svg_rel})",
+                    f"![]({wx_url})"
+                )
     html_content = markdown.markdown(content, extensions=["tables", "fenced_code"])
     style_map = {
         "<h1>": '<h1 style="font-size: 22px; font-weight: bold; margin: 25px 0 15px 0;">',
@@ -191,7 +247,14 @@ def main():
     thumb_media_id = upload_image(access_token, png_path)
 
     print("📝 转换文章内容...")
-    content = markdown_to_html(article_path)
+    # 上传插图并获取 URL 映射
+    print("🖼️  处理插图...")
+    illustration_urls = upload_illustrations(access_token, article_path, article_dir)
+    if illustration_urls:
+        print(f"   ✅ 已上传 {len(illustration_urls)} 张插图")
+    else:
+        print("   ℹ️  无本地插图引用")
+    content = markdown_to_html(article_path, illustration_urls)
 
     print("📤 建草稿...")
     draft_media_id = create_draft(access_token, title, digest, content, thumb_media_id)

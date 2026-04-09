@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="383" viewBox="0 0 900 383">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="383" fill="url(#bg)"/>
+  <!-- 左右对比 -->
+  <line x1="450" y1="60" x2="450" y2="320" stroke="#333" stroke-width="1" stroke-dasharray="4,4"/>
+  <circle cx="220" cy="120" r="30" fill="none" stroke="#ff6b6b" stroke-width="2" opacity="0.4"/>
+  <text x="220" y="126" fill="#ff6b6b" font-size="16" text-anchor="middle" font-family="sans-serif" opacity="0.5">✕</text>
+  <circle cx="680" cy="120" r="30" fill="none" stroke="#00d4aa" stroke-width="2" opacity="0.4"/>
+  <text x="680" y="126" fill="#00d4aa" font-size="16" text-anchor="middle" font-family="sans-serif" opacity="0.5">✓</text>
+  <!-- 主标题 -->
+  <text x="450" y="195" fill="#ffffff" font-size="44" font-weight="bold" text-anchor="middle" font-family="PingFang SC, sans-serif">为什么你觉得AI没用</text>
+  <text x="450" y="255" fill="#e0e0e0" font-size="38" font-weight="bold" text-anchor="middle" font-family="PingFang SC, sans-serif">你同事觉得离不开</text>
+  <!-- 品牌 -->
+  <text x="450" y="345" fill="#555" font-size="16" text-anchor="middle" font-family="sans-serif">AIGC Insight</text>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="383" viewBox="0 0 900 383">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a1628"/>
+      <stop offset="100%" stop-color="#1a1a2e"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="383" fill="url(#bg)"/>
+  <!-- 两条趋近的线 -->
+  <path d="M100 100 Q300 110, 500 140 Q650 160, 800 175" fill="none" stroke="#4a90d9" stroke-width="2.5" opacity="0.5"/>
+  <path d="M100 280 Q300 250, 500 210 Q650 195, 800 185" fill="none" stroke="#00d4aa" stroke-width="2.5" opacity="0.5"/>
+  <text x="820" y="170" fill="#4a90d9" font-size="11" font-family="sans-serif" opacity="0.6">闭源</text>
+  <text x="820" y="190" fill="#00d4aa" font-size="11" font-family="sans-serif" opacity="0.6">开源</text>
+  <!-- 主标题 -->
+  <text x="450" y="170" fill="#ffffff" font-size="46" font-weight="bold" text-anchor="middle" font-family="PingFang SC, sans-serif">开源模型追上来了</text>
+  <text x="450" y="230" fill="#aaa" font-size="26" text-anchor="middle" font-family="PingFang SC, sans-serif">Gemma 4 / Llama 4 / Qwen 3.6 意味着什么</text>
+  <!-- 品牌 -->
+  <text x="450" y="345" fill="#555" font-size="16" text-anchor="middle" font-family="sans-serif">AIGC Insight</text>
+</svg>

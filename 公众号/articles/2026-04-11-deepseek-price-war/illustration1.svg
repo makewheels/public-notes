@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 400">
+  <rect width="800" height="400" fill="#121220"/>
+  <text x="400" y="40" fill="#e0e0e0" text-anchor="middle" font-size="18" font-weight="bold" font-family="PingFang SC, sans-serif">同一任务，不同价格</text>
+  <!-- 坐标轴 -->
+  <line x1="120" y1="80" x2="120" y2="300" stroke="#333" stroke-width="1"/>
+  <line x1="120" y1="300" x2="700" y2="300" stroke="#333" stroke-width="1"/>
+  <text x="80" y="90" fill="#555" font-size="12" text-anchor="middle" font-family="sans-serif">$15</text>
+  <text x="80" y="160" fill="#555" font-size="12" text-anchor="middle" font-family="sans-serif">$10</text>
+  <text x="80" y="235" fill="#555" font-size="12" text-anchor="middle" font-family="sans-serif">$5</text>
+  <text x="80" y="305" fill="#555" font-size="12" text-anchor="middle" font-family="sans-serif">$0</text>
+  <line x1="115" y1="85" x2="120" y2="85" stroke="#333" stroke-width="1"/>
+  <line x1="115" y1="155" x2="120" y2="155" stroke="#333" stroke-width="1"/>
+  <line x1="115" y1="230" x2="120" y2="230" stroke="#333" stroke-width="1"/>
+  <!-- GPT-5.4 柱 -->
+  <rect x="180" y="95" width="80" height="205" rx="4" fill="#4a90d9" opacity="0.7"/>
+  <text x="220" y="85" fill="#4a90d9" font-size="16" font-weight="bold" text-anchor="middle" font-family="sans-serif">$12</text>
+  <text x="220" y="330" fill="#aaa" font-size="13" text-anchor="middle" font-family="PingFang SC, sans-serif">GPT-5.4</text>
+  <!-- Claude Opus 柱 -->
+  <rect x="320" y="110" width="80" height="190" rx="4" fill="#00d4aa" opacity="0.7"/>
+  <text x="360" y="100" fill="#00d4aa" font-size="16" font-weight="bold" text-anchor="middle" font-family="sans-serif">$10</text>
+  <text x="360" y="330" fill="#aaa" font-size="13" text-anchor="middle" font-family="PingFang SC, sans-serif">Claude Opus</text>
+  <!-- DeepSeek R2 柱 -->
+  <rect x="460" y="285" width="80" height="15" rx="4" fill="#ff6b6b" opacity="0.9"/>
+  <text x="500" y="278" fill="#ff6b6b" font-size="16" font-weight="bold" text-anchor="middle" font-family="sans-serif">&lt;$1</text>
+  <text x="500" y="330" fill="#aaa" font-size="13" text-anchor="middle" font-family="PingFang SC, sans-serif">DeepSeek R2</text>
+  <!-- 10x 标注 -->
+  <line x1="600" y1="100" x2="600" y2="290" stroke="#ffd93d" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="600" y="92" fill="#ffd93d" font-size="11" text-anchor="middle" font-family="sans-serif">↕</text>
+  <rect x="620" y="175" width="80" height="30" rx="6" fill="#ffd93d" opacity="0.15"/>
+  <text x="660" y="195" fill="#ffd93d" font-size="16" font-weight="bold" text-anchor="middle" font-family="sans-serif">~10x</text>
+  <!-- 场景说明 -->
+  <text x="400" y="375" fill="#666" text-anchor="middle" font-size="12" font-family="PingFang SC, sans-serif">场景：分析 10 万字文档 + 生成 5000 字报告</text>
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 400">
+  <rect width="800" height="400" fill="#0a1020"/>
+  <text x="400" y="38" fill="#e0e0e0" text-anchor="middle" font-size="18" font-weight="bold" font-family="PingFang SC, sans-serif">开源 vs 闭源：差距正在缩小</text>
+  <!-- 坐标轴 -->
+  <line x1="100" y1="320" x2="700" y2="320" stroke="#333" stroke-width="1"/>
+  <line x1="100" y1="80" x2="100" y2="320" stroke="#333" stroke-width="1"/>
+  <text x="60" y="85" fill="#555" font-size="11" text-anchor="middle" font-family="sans-serif">100%</text>
+  <text x="60" y="160" fill="#555" font-size="11" text-anchor="middle" font-family="sans-serif">75%</text>
+  <text x="60" y="240" fill="#555" font-size="11" text-anchor="middle" font-family="sans-serif">50%</text>
+  <text x="60" y="325" fill="#555" font-size="11" text-anchor="middle" font-family="sans-serif">25%</text>
+  <!-- 时间标签 -->
+  <text x="200" y="345" fill="#666" font-size="12" text-anchor="middle" font-family="sans-serif">2024</text>
+  <text x="400" y="345" fill="#666" font-size="12" text-anchor="middle" font-family="sans-serif">2025</text>
+  <text x="600" y="345" fill="#666" font-size="12" text-anchor="middle" font-family="sans-serif">2026</text>
+  <!-- 闭源线（高位，缓慢上升） -->
+  <path d="M200 130 Q300 120, 400 110 Q500 100, 600 95" fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <circle cx="200" cy="130" r="4" fill="#4a90d9"/>
+  <circle cx="400" cy="110" r="4" fill="#4a90d9"/>
+  <circle cx="600" cy="95" r="5" fill="#4a90d9"/>
+  <!-- 开源线（低位，快速上升） -->
+  <path d="M200 260 Q300 220, 400 180 Q500 145, 600 120" fill="none" stroke="#00d4aa" stroke-width="2.5"/>
+  <circle cx="200" cy="260" r="4" fill="#00d4aa"/>
+  <circle cx="400" cy="180" r="4" fill="#00d4aa"/>
+  <circle cx="600" cy="120" r="5" fill="#00d4aa"/>
+  <!-- 差距标注 -->
+  <line x1="210" y1="135" x2="210" y2="255" stroke="#ffd93d" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="235" y="200" fill="#ffd93d" font-size="12" font-family="PingFang SC, sans-serif">差距大</text>
+  <line x1="610" y1="100" x2="610" y2="115" stroke="#ff6b6b" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="645" y="112" fill="#ff6b6b" font-size="12" font-family="PingFang SC, sans-serif">接近</text>
+  <!-- 图例 -->
+  <rect x="250" y="365" width="12" height="12" rx="2" fill="#4a90d9"/>
+  <text x="270" y="376" fill="#aaa" font-size="12" font-family="PingFang SC, sans-serif">闭源（GPT/Claude）</text>
+  <rect x="430" y="365" width="12" height="12" rx="2" fill="#00d4aa"/>
+  <text x="450" y="376" fill="#aaa" font-size="12" font-family="PingFang SC, sans-serif">开源（Llama/Qwen/Gemma）</text>
+</svg>

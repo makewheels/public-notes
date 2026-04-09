@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 400">
+  <rect width="800" height="400" fill="#0a1020"/>
+  <text x="400" y="38" fill="#e0e0e0" text-anchor="middle" font-size="18" font-weight="bold" font-family="PingFang SC, sans-serif">自建 vs API：Break-even 在哪</text>
+  <!-- 坐标轴 -->
+  <line x1="100" y1="310" x2="700" y2="310" stroke="#333" stroke-width="1"/>
+  <line x1="100" y1="80" x2="100" y2="310" stroke="#333" stroke-width="1"/>
+  <text x="55" y="85" fill="#555" font-size="11" text-anchor="middle" font-family="sans-serif">$500/天</text>
+  <text x="55" y="200" fill="#555" font-size="11" text-anchor="middle" font-family="sans-serif">$200/天</text>
+  <text x="55" y="270" fill="#555" font-size="11" text-anchor="middle" font-family="sans-serif">$50/天</text>
+  <text x="55" y="315" fill="#555" font-size="11" text-anchor="middle" font-family="sans-serif">$0</text>
+  <!-- X轴 -->
+  <text x="200" y="335" fill="#666" font-size="11" text-anchor="middle" font-family="PingFang SC, sans-serif">100万 token/天</text>
+  <text x="400" y="335" fill="#666" font-size="11" text-anchor="middle" font-family="PingFang SC, sans-serif">1000万</text>
+  <text x="600" y="335" fill="#666" font-size="11" text-anchor="middle" font-family="PingFang SC, sans-serif">5000万</text>
+  <!-- API 成本线（线性上升） -->
+  <path d="M140 285 L300 240 L500 155 L680 85" fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <!-- 自建成本线（固定+缓慢增长） -->
+  <path d="M140 190 L300 185 L500 175 L680 165" fill="none" stroke="#00d4aa" stroke-width="2.5"/>
+  <!-- 交叉点 -->
+  <circle cx="350" cy="210" r="8" fill="none" stroke="#ffd93d" stroke-width="2"/>
+  <text x="370" y="198" fill="#ffd93d" font-size="12" font-weight="bold" font-family="PingFang SC, sans-serif">Break-even</text>
+  <text x="370" y="215" fill="#ffd93d" font-size="11" font-family="PingFang SC, sans-serif">~$200/天</text>
+  <!-- 区域标注 -->
+  <rect x="140" y="55" width="160" height="28" rx="5" fill="#4a90d9" opacity="0.15"/>
+  <text x="220" y="74" fill="#4a90d9" font-size="12" text-anchor="middle" font-family="PingFang SC, sans-serif">← API 更划算</text>
+  <rect x="500" y="55" width="160" height="28" rx="5" fill="#00d4aa" opacity="0.15"/>
+  <text x="580" y="74" fill="#00d4aa" font-size="12" text-anchor="middle" font-family="PingFang SC, sans-serif">自建更划算 →</text>
+  <!-- 图例 -->
+  <rect x="200" y="360" width="12" height="12" rx="2" fill="#4a90d9"/>
+  <text x="220" y="371" fill="#aaa" font-size="12" font-family="PingFang SC, sans-serif">API 调用成本</text>
+  <rect x="400" y="360" width="12" height="12" rx="2" fill="#00d4aa"/>
+  <text x="420" y="371" fill="#aaa" font-size="12" font-family="PingFang SC, sans-serif">自建部署成本（含运维）</text>
+</svg>
